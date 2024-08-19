@@ -14,9 +14,10 @@ function convertToRoman(num) {
 
 	for(let i = 0; i < obj.length; i++)
 		{
-			while (num >= obj[i][1]) {
-				result = obj[i][0];
-				num -= obj[i][1];
+			const [symbol, value] = obj[i];
+        while (num >= value) {
+            result += symbol;
+            num -= value
 			}
 		}
 	return result;
