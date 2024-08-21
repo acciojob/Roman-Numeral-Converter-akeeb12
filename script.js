@@ -12,7 +12,7 @@ function convertToRoman(num) {
   //your code here
 	let result = '';
 
-	for(let i = 0; i < romanNumerals.length; i++)
+	for(let i = 0; i <= romanNumerals.length; i++)
 		{
 			const [symbol, value] = romanNumerals[i];
         while (num >= value) {
