@@ -27,6 +27,6 @@ function converToRoman(num) {
 	return result;
 }
 
-console.log(converToRoman(return));
+console.log(converToRoman(14));
 module.exports = converToRoman;
 
